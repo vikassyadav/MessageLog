@@ -10,6 +10,9 @@ public class Model {
         this.body = body;
         this.date = date;
     }
+    public Model() {
+        // Required empty constructor for Firestore deserialization
+    }
 
     public String getAddress() {
         return address;
